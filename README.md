@@ -3,8 +3,7 @@
 This project was developed as part of the **Amini Soil Prediction Challenge**, hosted on [Zindi Africa](https://zindi.africa/competitions/amini-soil-prediction-challenge.-). The goal of the challenge was to use machine learning and satellite imagery to predict the availability of soil nutrients for agricultural productivity across Africa.
 
 We would like to extend our sincere thanks to **Amini**, **Zindi Africa**, and all supporting partners for organizing this important competition. The opportunity to work on real-world agritech data and contribute to open-source environmental AI is greatly appreciated.
-
-The notebb=ok
+The notebook is amini_soil.ipynb
 ---
 
 ## 📂 Data Overview
