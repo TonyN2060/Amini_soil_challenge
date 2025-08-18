@@ -4,11 +4,11 @@ This project was developed as part of the **Amini Soil Prediction Challenge**, h
 
 We would like to extend our sincere thanks to **Amini**, **Zindi Africa**, and all supporting partners for organizing this important competition. The opportunity to work on real-world agritech data and contribute to open-source environmental AI is greatly appreciated.
 
-📝 The notebook used in this solution is: `amini_soil.ipynb`
+ The notebook used in this solution is: `amini_soil.ipynb`
 
 ---
 
-## 📂 Data Overview
+##  Data Overview
 
 | File | Description |
 |------|-------------|
@@ -37,7 +37,7 @@ Each index was aggregated per plot using mean, max, and min to summarize tempora
 
 ---
 
-## ⚙️ Preprocessing Pipeline
+##  Preprocessing Pipeline
 
 - Dropped columns: `site`, `lat`, `lon`, `PID`
 - Imputed missing values using column-wise mean
@@ -46,7 +46,7 @@ Each index was aggregated per plot using mean, max, and min to summarize tempora
 
 ---
 
-## 🧠 Modeling
+## Modeling
 
 We used a `RandomForestRegressor` wrapped in a `MultiOutputRegressor` to handle multi-target regression. The model was trained on 80% of the data and evaluated on the remaining 20%.
 
@@ -57,19 +57,19 @@ We used a `RandomForestRegressor` wrapped in a `MultiOutputRegressor` to handle 
 
 ---
 
-## 🎯 Optuna Hyperparameter Tuning
+## Optuna Hyperparameter Tuning
 
 To improve model performance, we used **Optuna** to optimize Random Forest parameters.
 
 ---
 
-## 📤 Submission
+##  Submission
 
 Predictions were generated using the trained model and formatted using the `SampleSubmission.csv` template. Final predictions were exported to `submission.csv`.
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn xgboost optuna
