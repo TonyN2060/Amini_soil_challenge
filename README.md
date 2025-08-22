@@ -22,7 +22,7 @@ Each plot is uniquely identified using the `PID` column.
 
 ---
 
-## 🛰️ Vegetation Indices Used
+##  Vegetation Indices Used
 
 From the LANDSAT 8 bands, the following vegetation and water indices were computed:
 
